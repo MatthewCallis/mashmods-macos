@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD6BE6B0AA41F2900D8C16E /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DF032F025F525C0165C843 /* AppController.h */; };
+		1BD6BE6E0AA41F2900D8C16E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		1BD6BE700AA41F2900D8C16E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		1BD6BE710AA41F2900D8C16E /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF0330025F525C0165C843 /* AppController.m */; };
+		1BD6BE730AA41F2900D8C16E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AC11C35E100154290014D42E /* libftd2xx.0.1.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC11C2E0100129830014D42E /* libftd2xx.0.1.6.dylib */; };
+		AC3C80380FF725D9002BE6D3 /* NSData+RSHexDump.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3C80360FF725D9002BE6D3 /* NSData+RSHexDump.h */; };
+		AC3C80390FF725D9002BE6D3 /* NSData+RSHexDump.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3C80370FF725D9002BE6D3 /* NSData+RSHexDump.m */; };
+		AC5985D80FFC508C005ECC7A /* FFArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5985D70FFC508C005ECC7A /* FFArchive.framework */; };
+		AC5985E00FFC5093005ECC7A /* FFArchive.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AC5985D70FFC508C005ECC7A /* FFArchive.framework */; };
+		AC5986AD0FFC6A01005ECC7A /* þekking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5986AC0FFC6A01005ECC7A /* þekking.framework */; };
+		AC5986B30FFC6A04005ECC7A /* þekking.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = AC5986AC0FFC6A01005ECC7A /* þekking.framework */; };
+		AC90E02A0FE4787C00A24529 /* ftd2xx.h in Headers */ = {isa = PBXBuildFile; fileRef = AC90E0270FE4787C00A24529 /* ftd2xx.h */; };
+		AC90E02B0FE4787C00A24529 /* ftd2xx.cfg in Resources */ = {isa = PBXBuildFile; fileRef = AC90E0280FE4787C00A24529 /* ftd2xx.cfg */; };
+		AC90E0600FE47A4800A24529 /* WinTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AC90E05F0FE47A4800A24529 /* WinTypes.h */; };
+		ACDA859C1002ECAB00B81565 /* germ.icns in Resources */ = {isa = PBXBuildFile; fileRef = ACDA859B1002ECAB00B81565 /* germ.icns */; };
+		ACDA85BF1002EF0100B81565 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA85BD1002EF0100B81565 /* MainMenu.xib */; };
+		ACDA85C21002EF5300B81565 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA85C01002EF5300B81565 /* MainMenu.xib */; };
+		ACDA85C61002EF7E00B81565 /* Console.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA85C41002EF7E00B81565 /* Console.xib */; };
+		ACDA85CB1002EF9C00B81565 /* Console.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA85C91002EF9C00B81565 /* Console.xib */; };
+		ACEF06CA10017C1E004EB8F4 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEF06C810017C1E004EB8F4 /* Console.m */; };
+		ACEF06CB10017C1E004EB8F4 /* Console.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEF06C910017C1E004EB8F4 /* Console.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC90E0330FE478AE00A24529 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC5986B30FFC6A04005ECC7A /* þekking.framework in Copy Frameworks */,
+				AC5985E00FFC5093005ECC7A /* FFArchive.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1BD6BE780AA41F2900D8C16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD6BE790AA41F2900D8C16E /* SNES USB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNES USB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		AC11C2E0100129830014D42E /* libftd2xx.0.1.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libftd2xx.0.1.6.dylib; sourceTree = "<group>"; };
+		AC3C80360FF725D9002BE6D3 /* NSData+RSHexDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+RSHexDump.h"; sourceTree = "<group>"; };
+		AC3C80370FF725D9002BE6D3 /* NSData+RSHexDump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+RSHexDump.m"; sourceTree = "<group>"; };
+		AC5985D70FFC508C005ECC7A /* FFArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFArchive.framework; sourceTree = "<group>"; };
+		AC5986AC0FFC6A01005ECC7A /* þekking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "þekking.framework"; sourceTree = "<group>"; };
+		AC90E0270FE4787C00A24529 /* ftd2xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftd2xx.h; sourceTree = "<group>"; };
+		AC90E0280FE4787C00A24529 /* ftd2xx.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ftd2xx.cfg; sourceTree = "<group>"; };
+		AC90E05F0FE47A4800A24529 /* WinTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinTypes.h; sourceTree = "<group>"; };
+		ACDA859B1002ECAB00B81565 /* germ.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = germ.icns; sourceTree = "<group>"; };
+		ACDA85BE1002EF0100B81565 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACDA85C11002EF5300B81565 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ACDA85C51002EF7E00B81565 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Console.xib; sourceTree = "<group>"; };
+		ACDA85CA1002EF9C00B81565 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Console.xib; sourceTree = "<group>"; };
+		ACEF06C810017C1E004EB8F4 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Console.m; sourceTree = "<group>"; };
+		ACEF06C910017C1E004EB8F4 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		F5DF032F025F525C0165C843 /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		F5DF0330025F525C0165C843 /* AppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD6BE720AA41F2900D8C16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11C35E100154290014D42E /* libftd2xx.0.1.6.dylib in Frameworks */,
+				1BD6BE730AA41F2900D8C16E /* Cocoa.framework in Frameworks */,
+				AC5985D80FFC508C005ECC7A /* FFArchive.framework in Frameworks */,
+				AC5986AD0FFC6A01005ECC7A /* þekking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF032F025F525C0165C843 /* AppController.h */,
+				F5DF0330025F525C0165C843 /* AppController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC11C2E0100129830014D42E /* libftd2xx.0.1.6.dylib */,
+				AC5986AC0FFC6A01005ECC7A /* þekking.framework */,
+				AC5985D70FFC508C005ECC7A /* FFArchive.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD6BE790AA41F2900D8C16E /* SNES USB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Checksum */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				1BD6BE780AA41F2900D8C16E /* Info.plist */,
+				ACDA85BD1002EF0100B81565 /* MainMenu.xib */,
+				ACDA85C41002EF7E00B81565 /* Console.xib */,
+			);
+			name = Checksum;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF06C810017C1E004EB8F4 /* Console.m */,
+				ACEF06C910017C1E004EB8F4 /* Console.h */,
+				AC3C80360FF725D9002BE6D3 /* NSData+RSHexDump.h */,
+				AC3C80370FF725D9002BE6D3 /* NSData+RSHexDump.m */,
+				AC90E0230FE4787100A24529 /* D2XX */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA85C91002EF9C00B81565 /* Console.xib */,
+				ACDA85C01002EF5300B81565 /* MainMenu.xib */,
+				ACDA859B1002ECAB00B81565 /* germ.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC90E0230FE4787100A24529 /* D2XX */ = {
+			isa = PBXGroup;
+			children = (
+				AC90E05F0FE47A4800A24529 /* WinTypes.h */,
+				AC90E0270FE4787C00A24529 /* ftd2xx.h */,
+				AC90E0280FE4787C00A24529 /* ftd2xx.cfg */,
+			);
+			name = D2XX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BD6BE6A0AA41F2900D8C16E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD6BE6B0AA41F2900D8C16E /* AppController.h in Headers */,
+				AC90E02A0FE4787C00A24529 /* ftd2xx.h in Headers */,
+				AC90E0600FE47A4800A24529 /* WinTypes.h in Headers */,
+				AC3C80380FF725D9002BE6D3 /* NSData+RSHexDump.h in Headers */,
+				ACEF06CB10017C1E004EB8F4 /* Console.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BD6BE690AA41F2900D8C16E /* SNES USB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD6BE740AA41F2900D8C16E /* Build configuration list for PBXNativeTarget "SNES USB" */;
+			buildPhases = (
+				1BD6BE6A0AA41F2900D8C16E /* Headers */,
+				AC90E0330FE478AE00A24529 /* Copy Frameworks */,
+				1BD6BE6C0AA41F2900D8C16E /* Resources */,
+				1BD6BE6F0AA41F2900D8C16E /* Sources */,
+				1BD6BE720AA41F2900D8C16E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNES USB";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Checksum;
+			productReference = 1BD6BE790AA41F2900D8C16E /* SNES USB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CAF5D35B0AA37CE700E92878 /* Build configuration list for PBXProject "SNES USB" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 0;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Checksum */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BD6BE690AA41F2900D8C16E /* SNES USB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD6BE6C0AA41F2900D8C16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD6BE6E0AA41F2900D8C16E /* InfoPlist.strings in Resources */,
+				AC90E02B0FE4787C00A24529 /* ftd2xx.cfg in Resources */,
+				ACDA859C1002ECAB00B81565 /* germ.icns in Resources */,
+				ACDA85BF1002EF0100B81565 /* MainMenu.xib in Resources */,
+				ACDA85C21002EF5300B81565 /* MainMenu.xib in Resources */,
+				ACDA85C61002EF7E00B81565 /* Console.xib in Resources */,
+				ACDA85CB1002EF9C00B81565 /* Console.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD6BE6F0AA41F2900D8C16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD6BE700AA41F2900D8C16E /* main.m in Sources */,
+				1BD6BE710AA41F2900D8C16E /* AppController.m in Sources */,
+				AC3C80390FF725D9002BE6D3 /* NSData+RSHexDump.m in Sources */,
+				ACEF06CA10017C1E004EB8F4 /* Console.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACDA85BD1002EF0100B81565 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA85BE1002EF0100B81565 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ACDA85C01002EF5300B81565 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA85C11002EF5300B81565 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ACDA85C41002EF7E00B81565 /* Console.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA85C51002EF7E00B81565 /* English */,
+			);
+			name = Console.xib;
+			sourceTree = "<group>";
+		};
+		ACDA85C91002EF9C00B81565 /* Console.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDA85CA1002EF9C00B81565 /* English */,
+			);
+			name = Console.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BD6BE750AA41F2900D8C16E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SNES USB";
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		1BD6BE760AA41F2900D8C16E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SNES USB";
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		1BD6BE770AA41F2900D8C16E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SNES USB";
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		CAF5D35C0AA37CE700E92878 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "-DDEBUG";
+				SDKROOT = macosx10.5;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Development;
+		};
+		CAF5D35D0AA37CE700E92878 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = "";
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Deployment;
+		};
+		CAF5D35E0AA37CE700E92878 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = "";
+				SDKROOT = macosx10.5;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD6BE740AA41F2900D8C16E /* Build configuration list for PBXNativeTarget "SNES USB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD6BE750AA41F2900D8C16E /* Development */,
+				1BD6BE760AA41F2900D8C16E /* Deployment */,
+				1BD6BE770AA41F2900D8C16E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CAF5D35B0AA37CE700E92878 /* Build configuration list for PBXProject "SNES USB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF5D35C0AA37CE700E92878 /* Development */,
+				CAF5D35D0AA37CE700E92878 /* Deployment */,
+				CAF5D35E0AA37CE700E92878 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

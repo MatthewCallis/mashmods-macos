@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 415}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{0, 266}";
+			sepNavWindowFrame = "{{15, 16}, {1069, 757}}";
+		};
+	};
+	1BD6BE690AA41F2900D8C16E /* SNES USB */ = {
+		activeExec = 0;
+		executables = (
+			ACAC1F860B87EBD700F448F5 /* SNES USB */,
+		);
+	};
+	1BD6BE780AA41F2900D8C16E /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 12}, {543, 761}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = ACAC1F860B87EBD700F448F5 /* SNES USB */;
+		activeTarget = 1BD6BE690AA41F2900D8C16E /* SNES USB */;
+		addToTargets = (
+			1BD6BE690AA41F2900D8C16E /* SNES USB */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = ACAC1F920B87EBDD00F448F5 /* Code sense */;
+		executables = (
+			ACAC1F860B87EBD700F448F5 /* SNES USB */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					802,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					219,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					762,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275170069;
+			PBXWorkspaceStateSaveDate = 275170069;
+		};
+		perUserProjectItems = {
+			AC037D4C1066C32B0038D8BE /* PBXTextBookmark */ = AC037D4C1066C32B0038D8BE /* PBXTextBookmark */;
+			AC5986B80FFC6A8E005ECC7A /* PBXTextBookmark */ = AC5986B80FFC6A8E005ECC7A /* PBXTextBookmark */;
+			ACAE3C7F10019A8F0076DCD8 /* PBXTextBookmark */ = ACAE3C7F10019A8F0076DCD8 /* PBXTextBookmark */;
+			ACDA859F1002ECD100B81565 /* PBXTextBookmark */ = ACDA859F1002ECD100B81565 /* PBXTextBookmark */;
+			ACDA85DC1002F00000B81565 /* PBXBookmark */ = ACDA85DC1002F00000B81565 /* PBXBookmark */;
+			ACDA85DD1002F00000B81565 /* PBXTextBookmark */ = ACDA85DD1002F00000B81565 /* PBXTextBookmark */;
+			ACDA85E31002F00800B81565 /* PBXTextBookmark */ = ACDA85E31002F00800B81565 /* PBXTextBookmark */;
+			ACEF06E410017EA2004EB8F4 /* PBXTextBookmark */ = ACEF06E410017EA2004EB8F4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = ACAC1F910B87EBDD00F448F5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 653}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 255}";
+			sepNavWindowFrame = "{{15, 16}, {1069, 757}}";
+		};
+	};
+	AC037D4C1066C32B0038D8BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ACEF06C810017C1E004EB8F4 /* Console.m */;
+		name = "Console.m: 7";
+		rLen = 3;
+		rLoc = 95;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 0;
+	};
+	AC3C80360FF725D9002BE6D3 /* NSData+RSHexDump.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 651}}";
+			sepNavSelRange = "{320, 11}";
+			sepNavVisRange = "{0, 558}";
+			sepNavWindowFrame = "{{15, 18}, {744, 755}}";
+		};
+	};
+	AC3C80370FF725D9002BE6D3 /* NSData+RSHexDump.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 1484}}";
+			sepNavSelRange = "{253, 28}";
+			sepNavVisRange = "{0, 1130}";
+			sepNavWindowFrame = "{{15, 18}, {744, 755}}";
+		};
+	};
+	AC5986B80FFC6A8E005ECC7A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC5986B90FFC6A8E005ECC7A /* RomFile.h */;
+		name = "RomFile.h: 28";
+		rLen = 6;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 259;
+	};
+	AC5986B90FFC6A8E005ECC7A /* RomFile.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = RomFile.h;
+		path = "/Users/gapetto/SNESminni/SNESudo/þekking.framework/Headers/RomFile.h";
+		sourceTree = "<absolute>";
+	};
+	AC90E0270FE4787C00A24529 /* ftd2xx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 12418}}";
+			sepNavSelRange = "{11518, 39}";
+			sepNavVisRange = "{7430, 2070}";
+			sepNavWindowFrame = "{{15, 18}, {744, 755}}";
+		};
+	};
+	AC90E0280FE4787C00A24529 /* ftd2xx.cfg */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {475, 591}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 110}";
+			sepNavWindowFrame = "{{15, 78}, {534, 695}}";
+		};
+	};
+	AC90E05F0FE47A4800A24529 /* WinTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 1316}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1061}";
+			sepNavWindowFrame = "{{310, 17}, {933, 761}}";
+		};
+	};
+	ACAC1F860B87EBD700F448F5 /* SNES USB */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "SNES USB";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	ACAC1F910B87EBDD00F448F5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	ACAC1F920B87EBDD00F448F5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ACAE3C7F10019A8F0076DCD8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5DF032F025F525C0165C843 /* AppController.h */;
+		name = "AppController.h: 26";
+		rLen = 0;
+		rLoc = 547;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 300;
+	};
+	ACDA859F1002ECD100B81565 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F5DF0330025F525C0165C843 /* AppController.m */;
+		name = "AppController.m: 17";
+		rLen = 1;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 669;
+		vrLoc = 0;
+	};
+	ACDA85DC1002F00000B81565 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ACDA859B1002ECAB00B81565 /* germ.icns */;
+	};
+	ACDA85DD1002F00000B81565 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 7";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	ACDA85E31002F00800B81565 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ACEF06C810017C1E004EB8F4 /* Console.m */;
+		name = "Console.m: 7";
+		rLen = 3;
+		rLoc = 95;
+		rType = 0;
+		vrLen = 677;
+		vrLoc = 0;
+	};
+	ACEF06C810017C1E004EB8F4 /* Console.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 494}}";
+			sepNavSelRange = "{95, 3}";
+			sepNavVisRange = "{0, 736}";
+		};
+	};
+	ACEF06C910017C1E004EB8F4 /* Console.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {589, 336}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 194}";
+		};
+	};
+	ACEF06E410017EA2004EB8F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ACEF06C910017C1E004EB8F4 /* Console.h */;
+		name = "Console.h: 13";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	F5DF032F025F525C0165C843 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 1092}}";
+			sepNavSelRange = "{547, 0}";
+			sepNavVisRange = "{300, 584}";
+			sepNavWindowFrame = "{{626, 83}, {534, 695}}";
+		};
+	};
+	F5DF0330025F525C0165C843 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{450, 45}\";\n            s = 0;\n        },\n                {\n            r = \"{761, 233}\";\n            s = 0;\n        },\n                {\n            r = \"{5701, 383}\";\n            s = 0;\n        },\n                {\n            r = \"{6200, 325}\";\n            s = 0;\n        },\n                {\n            r = \"{6585, 103}\";\n            s = 0;\n        },\n                {\n            r = \"{6738, 188}\";\n            s = 0;\n        },\n                {\n            r = \"{6986, 317}\";\n            s = 0;\n        },\n                {\n            r = \"{7357, 46}\";\n            s = 0;\n        },\n                {\n            r = \"{7488, 151}\";\n            s = 0;\n        },\n                {\n            r = \"{7660, 200}\";\n            s = 0;\n        },\n                {\n            r = \"{7881, 402}\";\n            s = 0;\n        },\n                {\n            r = \"{8305, 61}\";\n            s = 0;\n        },\n                {\n            r = \"{8454, 382}\";\n            s = 0;\n        },\n                {\n            r = \"{17847, 1913}\";\n            s = 0;\n        },\n                {\n            r = \"{19826, 2415}\";\n            s = 0;\n        },\n                {\n            r = \"{28500, 1235}\";\n            s = 0;\n        },\n                {\n            r = \"{29786, 866}\";\n            s = 0;\n        },\n                {\n            r = \"{30739, 148}\";\n            s = 0;\n        },\n                {\n            r = \"{30971, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{31313, 631}\";\n            s = 0;\n        },\n                {\n            r = \"{32095, 1073}\";\n            s = 0;\n        },\n                {\n            r = \"{33302, 4270}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 37580}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {980, 12460}}";
+			sepNavSelRange = "{347, 1}";
+			sepNavVisRange = "{0, 625}";
+			sepNavVisRect = "{{0, 937}, {900, 669}}";
+			sepNavWindowFrame = "{{6, 10}, {1015, 768}}";
+		};
+	};
+}
